@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.ui-footer h4.ui-title {
+	font-size: 8px;
+	font-weight: normal;
+}
+
+.ui-header h4.ui-title {
+font-size: 11px;
+font-weight: normal;
+text-align: center;
+padding-bottom: 12px;
+padding-top: 10px;
+padding-left: 5px;
+margin: 1px;
+
+}
+
+h3, h4 
+{
+	margin-bottom: 0;
+}
+h3 + p, h4 + p {
+	margin-top: 0;
+}

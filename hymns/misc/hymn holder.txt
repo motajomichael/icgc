@@ -1,0 +1,10 @@
+<div id="hymn" data-role="page" data-theme="b" data-add-back-btn="true">
+  <div data-role="header" data-theme="b">
+    <h1>Hymn</h1>
+  </div>
+  <p>Hymn Title</p>
+  
+  <div data-role="footer" data-theme="b">
+    <h4>Geekasoft &copy; 2016</h4>
+  </div>
+</div>

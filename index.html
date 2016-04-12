@@ -1,0 +1,1044 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>ICGC Eagles Temple</title>
+<link href="custom.css" rel="stylesheet" type="text/css">
+<link href="jquery.mobile-1.0b3/jquery.mobile-1.0b3.min.css" rel="stylesheet" type="text/css">
+<script src="jquery.mobile-1.0b3/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0b3/jquery.mobile-1.0b3.min.js" type="text/javascript"></script>
+<script src="js/date.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	if (navigator.userAgent.match(/(iPad.*|iPhone.*|iPod.*);.*CPU.*OS 7_\d/i)) {
+		$("body").addClass("ios7");
+		$("body").append('');
+	}
+}); 
+</script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+      <img src="images/logo.png" width="70" height="60" alt="icgc" align="center"> EAGLES TEMPLE
+
+      </div>
+
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#about-us">About Us</a></li>
+            <li><a href="#hymnal">Hymnal</a></li>
+			<li><a href="#bible">Bible App</a></li>
+            <li><a href="#declare">Declaration</a></li>
+            <li><a href="#devotions">Daily Devotions</a></li>
+            
+        
+            <li><a href="notes.html">Sermon Notes</a></li>
+
+            <li><a href="#vidstream">Video Streaming</a></li>
+            <li><a href="#audstream">Audio Streaming</a></li>
+            <li><a href="#accept">Accept Jesus</a></li>
+            <li><a href="#testimonies">Testimonies</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		ABOUT US					 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+<div data-role="page" id="about-us" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>About Us</h1>
+	</div>
+	<div data-role="content">	
+		<p> About us goes here	</p>	
+		<div data-role="collapsible-set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+    <div data-role="collapsible" data-collapsed="false">
+      <h3>Meet the Pastor</h3>
+      <p><img src="images/pastor.jpg"/></p>
+      <p>Content</p>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>Ministries</h3>
+      <p>Content</p>
+    </div>
+    <div data-role="collapsible" data-collapsed="true">
+      <h3>Worship with us</h3>
+      <p><ol><li> <b>Convenant Family Meetings</b><br>
+			  <em>Sunday evenings at 6:30p.m.</em></li>
+			  <hr>
+			  <li> <b>Wednesdays Service</b><br>
+			  <em>Wednesdays 6:45p.m.</em></li>
+			  <hr>
+			  <li> <b>Church Prayer Meeting</b><br>
+			  <em>Fridays at 6:45p.m.</em></li>
+			  <hr>
+			  <li> <b>Breakthrough Hour</b><br>
+			  <em>Saturdays 5:30a.m. - 6:30a.m.</em></li>
+			  <hr>
+			  <hr>
+			  </ol>
+      </p>
+    </div>
+  </div>
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		HYMNS	LIST				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+
+<div data-role="page" id="hymnal" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Hymnal</h1>
+  </div>
+	<div data-role="content">
+
+	  	<ul data-role="listview" data-filter="true" data-filter-placeholder="Search Hymns.." data-filter-theme="c" data-inset="true">
+    	  <li><a href="#aCharge" target="_self" data-transition="flip">A Charge To Keep I Have</a></li>
+		  <li><a href="#allHail" target="_self" data-transition="flip">All Hail The Power Of Jesus</a></li>
+		  <li><a href="#amazingGrace" target="_self" data-transition="flip">Amazing Grace How Sweet The Sound</a></li>
+		  <li><a href="#andCan" target="_self" data-transition="flip">And Can It Be That I Should Gain</a></li>
+		  <li><a href="#beStill" target="_self" data-transition="flip">Be Still And Know That I Am God</a></li>
+		  <li><a href="#blessedAssurance" target="_self" data-transition="flip">Blessed Assurance Jesus Is Mine</a></li>
+		  <li><a href="#captainOf" target="_self" data-transition="flip">Captain Of Israel</a></li>
+		  <li><a href="#countYour" target="_self" data-transition="flip">Count Your Blessings</a></li>
+		  <li><a href="#dingDong" target="_self" data-transition="flip">Ding Dong</a></li>
+		  <li><a href="#everyPraise" target="_self" data-transition="flip">Every Praise</a></li>
+		  <li><a href="#faithfulTo" target="_self" data-transition="flip">Faithful To The End</a></li>
+		  <li><a href="#fightThe" target="_self" data-transition="flip">Fight The Good Fight With All Thy Might</a></li>
+		  <li><a href="#freedom" target="_self" data-transition="flip">Freedom</a></li>
+		  <li><a href="#godCan" target="_self" data-transition="flip">God Can</a></li>
+		  <li><a href="#godMoves" target="_self" data-transition="flip">God Moves In A Mysterious Way</a></li>
+		  <li><a href="#greatIs" target="_self" data-transition="flip">Great Is Thy Faithfulness</a></li>
+		  <li><a href="#harkThe" target="_self" data-transition="flip">Hark The Herald</a></li>
+		  <li><a href="#imPressing" target="_self" data-transition="flip">I'm Pressing On</a></li>
+		  <li><a href="#jesusLoves" target="_self" data-transition="flip">Jesus Loves Even Me</a></li>
+		  <li><a href="#jesusShall" target="_self" data-transition="flip">Jesus Shall Reign Where</a></li>
+		  <li><a href="#joyTo" target="_self" data-transition="flip">Joy To The World</a></li>
+		  <li><a href="#loveDivine" target="_self" data-transition="flip">Love Divine All Love Excelling</a></li>
+		  <li><a href="#lowIn" target="_self" data-transition="flip">Low In The Grave He Lay</a></li>
+		  <li><a href="#myHope" target="_self" data-transition="flip">My Hope Is Built On Nothing Less</a></li>
+		  <li><a href="#nothingBut" target="_self" data-transition="flip">Nothing But The Blood Of Jesus</a></li>
+		  <li><a href="#nowThank" target="_self" data-transition="flip">Now Thank We All Our God</a></li>
+		  <li><a href="#oCome" target="_self" data-transition="flip">O Come All Ye Faithfull</a></li>
+		  <li><a href="#oFor" target="_self" data-transition="flip">O For A Thousand Tongues To Sing</a></li>
+		  <li><a href="#oPerfect" target="_self" data-transition="flip">O Perfect Love</a></li>
+		  <li><a href="#oWorship" target="_self" data-transition="flip">O Worship The King</a></li>
+		  <li><a href="#pottersHands" target="_self" data-transition="flip">Potters Hand</a></li>
+		  <li><a href="#praiseMy" target="_self" data-transition="flip">Praise My Soul The King Of Heaven</a></li>
+		  <li><a href="#rejoiceThe" target="_self" data-transition="flip">Rejoice The Lord Is King</a></li>
+		  <li><a href="#rescueThe" target="_self" data-transition="flip">Rescue The Perishing</a></li>
+		  <li><a href="#showersOf" target="_self" data-transition="flip">Showers Of Blessings</a></li>
+		  <li><a href="#standUp" target="_self" data-transition="flip">Stand Up</a></li>
+		  <li><a href="#standingOn" target="_self" data-transition="flip">Standing On The Promises Of God</a></li>
+		  <li><a href="#takeMy" target="_self" data-transition="flip">Take My Life And Let It Be</a></li>
+		  <li><a href="#theLord" target="_self" data-transition="flip">The Lord's My Shepherd</a></li>
+		  <li><a href="#theOld" target="_self" data-transition="flip">The Old Rugged Cross</a></li>
+		  <li><a href="#thereIs" target="_self" data-transition="flip">There Is A Green Hill</a></li>
+		  <li><a href="#thereIsa" target="_self" data-transition="flip">There Is A Redeemer</a></li>
+		  <li><a href="#theresNot" target="_self" data-transition="flip">There's Not A Friend Like The Lowly Jesus</a></li>
+		  <li><a href="#thouOh" target="_self" data-transition="flip">Thou Oh Lord</a></li>
+		  <li><a href="#throughIt" target="_self" data-transition="flip">Through It All</a></li>
+		  <li><a href="#throughAll" target="_self" data-transition="flip">Through The Changing Scenes</a></li>
+		  <li><a href="#tisSo" target="_self" data-transition="flip">Tis So Sweet To Trust In Jesus</a></li>
+		  <li><a href="#toGod" target="_self" data-transition="flip">To God Be The Glory</a></li>
+		  <li><a href="#totalPraise" target="_self" data-transition="flip">Total Praise</a></li>
+		  <li><a href="#whenI" target="_self" data-transition="flip">When I Survey The Wondrous Cross</a></li>
+		  <li><a href="#whenWe" target="_self" data-transition="flip">When We Walk With The Lord</a></li>
+		  <li><a href="#whileShepherd" target="_self" data-transition="flip">While Shepherd Watched Their Flocks</a></li>
+		  <li><a href="#wouldYou" target="_self" data-transition="flip">Would You Be Free From Sin</a></li>
+		  <li><a href="#youAre" target="_self" data-transition="flip">You Are My Strength</a></li>
+		  
+		  </ul>
+	</div>
+
+
+
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      			BIBLE					 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+
+<div data-role="page" id="bible" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Bible</h1>
+  </div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		DECLARATION					 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="declare" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Declaration</h1>
+  </div>
+	<div data-role="content">	
+		<p>
+		<h4 align="center"><b><u>INFLUENCE DECLARATIONS 2016</u></b></h4></p>
+		<p align="center">
+The Lord Reigns<br>
+Let the Earth Rejoice<br>
+His name is established in the heavens<br>
+<br>
+His glory<br>
+Fills the earth<br>
+As the waters cover the sea<br>
+<br>
+Today, I declare<br>
+The testimony of the Lord<br>
+To the nations<br>
+<br>
+Jehovah is my God<br>
+Jesus is my Saviour<br>
+<br>
+I know who I am in Christ<br>
+<br>
+I am an Ambassador for Christ<br>
+I am Salt to the earth<br>
+I am Light to the world<br>
+I am a City set on a hill<br>
+<br>
+I cannot be hidden<br>
+I will not be cast aside<br>
+<br>
+The Lord my God<br>
+Has planted me<br>
+Like a tree by the waters<br>
+<br>
+My roots are deep<br>
+My branches are wide<br>
+My fruits are marvelous<br>
+<br>
+I am blessed beyond measure<br>
+<br>
+Therefore, I will bless the name of the Lord<br>
+From generation to generation<br>
+<br>
+Though darkness may cover the earth<br>
+Yet,<br>
+I rise<br>
+I shine<br>
+My light has come<br>
+The glory of the Lord is risen upon me<br>
+<br>
+Yes, the glory of the Lord is risen upon me<br>
+<br>
+In Jesus’ name, Amen<br>
+			
+		</p>	
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      			DEVOTIONS				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="devotions" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Living Word Devotion</h1>
+  </div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      			NOTES					 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="notes" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Sermon Notes</h1>
+  </div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		VIDEO STREAM				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="vidstream" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Video Streaming</h1>
+  </div>
+	<div data-role="content">	
+		
+            
+           
+			<iframe src="https://www.youtube.com/embed/pW5oRHr3SpI?rel=0" scrolling="no" 
+frameborder="0" allowfullscreen style="width:90%;height:300px;background-image:url(images/tele.png)"></iframe>
+		
+		<p>Live streaming is scheduled for the following Events: <br>
+		<ol>
+<li><b>Church Services on Sundays </b><br> 
+<emp>1st Service [7.30am - 9.30am] and 2nd Service [10.00am to 12.00 noon]</emp></li>
+<li><b>Tuesday Services</b><br>
+<emp>Evening Service [6.00pm to 8.00pm]</emp></li>
+<li><b>Special Events</b><br>
+<emp>Greater Works, Destiny Summit, Crossover, etc</emp></li>
+
+</ol>
+</p>	
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		AUDIO STREAMING				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="audstream" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Audio Streaming</h1>
+  </div>
+	<div data-role="content">	
+		<iframe width="100%" height="500px" scrolling="no" src="http://centralgospel.com/pages/live/livingWordRadio.html"></iframe> 
+	 </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		ACCEPT JESUS				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="accept" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Accept Jesus</h1>
+  </div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		TESTIMONIES					 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<div data-role="page" id="testimonies" data-add-back-btn="true">
+	<div data-role="header">
+		<h1>Testimony</h1>
+  </div>
+	<div data-role="content">
+	<div data-role="fieldcontain">
+    <fieldset data-role="controlgroup">
+      <legend>Type</legend>
+      <input name="attendingRadio" type="radio" id="attendingRadio_0" title="Yes" value="yes" />
+      <label for="attendingRadio_0">Testimony</label>
+      <input name="attendingRadio" type="radio" id="attendingRadio_1" title="No" value="no" />
+      <label for="attendingRadio_1">Prayer Request</label>
+    </fieldset>
+  </div>	
+	<form id="testForm" action="">
+<div data-role="fieldcontain">
+  <label for="nameText">Name:</label>
+  <input type="text" name="nameText" id="nameText" value=""  />
+  <label for="emailSurvey">Email:</label>
+  <input type="email" name="emailSurvey" id="emailSurvey" value=""  />
+  <label for="countrySurvey">Country:</label>
+  <input type="email" name="countrySurvey" id="countrySurvey" value=""  />
+  <label for="phoneSurvey">Phone:</label>
+  <input type="text" name="phoneSurvey" id="phoneSurvey" value=""  />
+</div>
+<div data-role="fieldcontain">
+  <label for="topicSurvey">Subject:</label>
+  <input type="text" name="topicSurvey" id="topicSurvey" value=""  />
+
+  <label for="messageSurvey">Message:</label>
+  <input type="text" name="messageSurvey" id="messageSurvey" value=""  />
+  
+</form>
+			
+	</div>
+	<div data-role="footer">
+		<h4>Geekasoft &copy 2016</h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+++++++++++++++++++++++++++++++++++++++++++
++ 										 +
++      		HYMNS	LOADERS				 +
++										 +
+++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<!--hymn loaders-->
+<div data-role="page" id="aCharge" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#aCharge").load("hymns/a_charge.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="allHail" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#allHail").load("hymns/all_hail.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="amazingGrace" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#amazingGrace").load("hymns/amazing_grace.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="andCan" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#andCan").load("hymns/and_can.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="beStill" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#beStill").load("hymns/be_still.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="blessedAssurance" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#blessedAssurance").load("hymns/blessed_assurance.html");
+});
+</script>
+</div>
+<!--next hymn-->
+<div data-role="page" id="captainOf" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#captainOf").load("hymns/captain_of.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="countYour" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#countYour").load("hymns/count_your.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="dingDong" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#dingDong").load("hymns/ding_dong.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="everyPraise" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#everyPraise").load("hymns/every_praise.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="faithfulTo" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#faithfulTo").load("hymns/faithful_to.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="fightThe" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#fightThe").load("hymns/fight_the.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="freedom" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#freedom").load("hymns/freedom_.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="godCan" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#godCan").load("hymns/god_can.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="godMoves" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#godMoves").load("hymns/god_moves.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="greatIs" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#greatIs").load("hymns/great_is.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="harkThe" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#harkThe").load("hymns/hark_the.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="holySpirit" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#holySpirit").load("hymns/holy_spirit.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="imPressing" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#imPressing").load("hymns/im_pressing.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="jesusLoves" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#jesusLoves").load("hymns/jesus_loves.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="jesusShall" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#jesusShall").load("hymns/jesus_shall.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#").load("hymns/.html");
+});
+</script>
+</div>
+
+
+<!--next hymn-->
+<div data-role="page" id="theresNot" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#theresNot").load("hymns/theres_not.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="thouOh" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#thouOh").load("hymns/thou_oh.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="throughAll" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#throughAll").load("hymns/through_all.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="throughIt" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#throughIt").load("hymns/through_it.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="tisSo" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#tisSo").load("hymns/tis_so.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="toGod" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#toGod").load("hymns/to_god.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="totalPraise" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#totalPraise").load("hymns/total_praise.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="whenI" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#whenI").load("hymns/when_i.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="whenWe" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#whenWe").load("hymns/when_we.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="whileShepherd" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#whileShepherd").load("hymns/while_shepherd.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="wouldYou" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#wouldYou").load("hymns/would_you.html");
+});
+</script>
+</div>
+
+<!--next hymn-->
+<div data-role="page" id="youAre" data-add-back-btn="true">
+	<script type="text/javascript">
+$(function()
+{
+        $("#youAre").load("hymns/you_are.html");
+});
+</script>
+</div>
+
+</body>
+</html>
